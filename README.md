@@ -1,5 +1,18 @@
 # Sample Exam
 
+By participating in this exam, you agree to the following Honor Code:
+
+- *Personal Responsibility*: You acknowledge that you are responsible for your own work and will maintain the highest standards of honesty.
+
+- *Independent Effort*: You understand that this exam is an individual effort. Collaboration with others and seeking unauthorized assistance is strictly prohibited.
+
+- *Originality*: You affirm that all work submitted for this exam is entirely your own. This precludes the use of artificial intelligence aids, online platforms, or any other resources that may provide assistance with exam questions or tasks. Be sure to turn off any AI-based features on your computer or mobile devices before starting the exam.
+
+- *Time Constraints*: You acknowledge that this exam is timed and will be completed within the designated period. Any submission beyond the allotted time will be considered invalid.
+
+- *Confidentiality*: You understand that the content of this exam is confidential. You must not share any details or discuss any aspect of the exam with other students without express permission.
+
+
 ## Part 1: Multiple Choice
 
 Your answers to the multiple choice questions in this section should go into the `answers` dictionary found in the file `mc_answers.py` (instructions on how to modify the dictionary are found in the file). Each question is worth 2 points.
