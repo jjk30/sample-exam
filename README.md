@@ -25,21 +25,21 @@ Your answers to the multiple choice questions in this section should go into the
     - d) 45
     - e) 46
 
-## Part 2: Short Answer
+## Part 2: Function Implementation
 
-Each of the questions in this section specifies the behavior for a function you are to implement. Your solution to each question should go into the function `pXX`, where `XX` corresponds to the question number (e.g., your solution to question 1 should go into the function `p01`). All functions have been stubbed out for you in the file `short_answers.py`. Each question is worth 5 points.
+Each of the questions in this section specifies the behavior for a function you are to implement. Your solution to each question should go into the function `fXX`, where `XX` corresponds to the question number (e.g., your solution to question 1 should go into the function `f01`). All functions have been stubbed out for you in the file `p2_answers.py`. Each question is worth 5 points.
 
 1. Write a function that takes a list of integers and returns the sum of all the even numbers in the list.
 
-## Part 3: Long Answer
+## Part 3: Class/Method Implementation
 
-Each of the questions in this section specifies the behavior for a function or method you are to implement. Your solutions should go into the file `long_answers.py`, and will involve modifying one or more functions/methods/classes that have been stubbed out for you, according to the question specifications. Each question is worth 10 points.
+Each of the questions in this section specifies the behavior for a method you are to implement. Your solutions should go into the file `p3_answers.py`, and will involve modifying one or more methods/classes that have been stubbed out for you, according to the question specifications. Each question is worth 10 points.
 
 1. Implement the `foo` method of class `ArrayList` so that it returns the number of elements in the list that are equal to the given value.
 
 
 ## Testing & Submission
 
-Tests are included with this repository that help ensure your solutions are correctly formatted and return the expected types. Note that the included tests DO NOT check that your solutions are logically correct! I.e., passing the tests does not mean that you will receive any/full credit.
+Tests are included with this repository that help ensure your solutions return the expected types. Note that the included tests DO NOT check that your solutions are logically correct! I.e., passing the tests does not mean that you will receive any/full credit. If your code fails to run at all (e.g., due to syntax errors), you will receive no credit for the corresponding question(s).
 
 To submit your work, simply commit and push your changes to your repository. You can commit and push as many times as you like; I will only grade the version that was last pushed before the deadline.
