@@ -3,13 +3,14 @@
 # names of functions/methods/classes nor their signatures.
 
 import numpy as np
+from typing import Any
 
 class ArrayList:
     def __init__(self):
         self.data = np.empty(1, dtype=object)
         self.size = 0
 
-    def append(self, value):
+    def append(self, value: Any) -> None:
         if self.size == len(self.data):
             ndata = np.empty(2 * len(self.data), dtype=object)
             for i in range(len(self.data)):
@@ -18,8 +19,8 @@ class ArrayList:
         self.data[self.size] = value
         self.size += 1
 
-    def __len__(self):
+    def __len__(self) -> int:
         return self.size
 
-    def foo(self, value: object) -> int:
+    def foo(self, value: Any) -> int:
         raise NotImplementedError
